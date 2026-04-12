@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youness AIT BENHACHEM | Directeur de Programmes IT & PMO</title>
+  <meta name="description" content="Youness AIT BENHACHEM – Directeur de Programmes IT & PMO, Transformation SI. 16 ans d'expérience grands comptes (LVMH, Orange, Carrefour, Safran). Disponible immédiatement – Casablanca, Maroc." />
+  <meta name="keywords" content="Directeur IT, Programme Manager, PMO, Transformation SI, Open Banking, Data Cloud, LVMH, Orange Bank, Carrefour, Safran, Maroc" />
+  <meta property="og:title" content="Youness AIT BENHACHEM – Directeur de Programmes IT & PMO" />
+  <meta property="og:description" content="16 ans d'expérience grands comptes internationaux. Programmes multi-millions €, transformation SI, data cloud, télécom." />
+  <meta property="og:type" content="website" />
+  <!-- Canonical -->
+  <link rel="canonical" href="https://youness-aitbenhachem.netlify.app/" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <!-- html2pdf (PDF export) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a class="nav-logo" href="#hero">YAB<span class="gold">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#experiences">Expériences</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn-cv-dl" id="navPdfBtn" aria-label="Télécharger CV">
+        ↓ CV
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Thème">
+        <span class="sun">☀</span><span class="moon">☾</span>
+      </button>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <canvas id="heroCanvas"></canvas>
+
+  <div class="hero-content">
+    <div class="hero-available reveal">
+      <span class="avail-dot"></span> Disponible immédiatement · Casablanca, Maroc
+    </div>
+    <p class="hero-eyebrow reveal">Directeur de Programmes IT &amp; PMO</p>
+    <h1 class="hero-name reveal">
+      Youness<br /><span class="gold">AIT BENHACHEM</span>
+    </h1>
+    <p class="hero-tagline reveal">
+      Transformation des Systèmes d'Information · Banque · Retail · Télécom<br class="dk" />
+      Piloter la complexité. Délivrer l'impact. Accélérer la maturité digitale.
+    </p>
+
+    <div class="hero-stats reveal">
+      <div class="stat">
+        <span class="stat-num" data-target="16">0</span><span class="stat-sfx">+</span>
+        <span class="stat-lbl">ans grands comptes</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <span class="stat-pre">plusieurs</span>
+        <span class="stat-num2">centaines M€</span>
+        <span class="stat-lbl">de programmes pilotés</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="7">0</span>
+        <span class="stat-lbl">grands comptes</span>
+      </div>
+    </div>
+
+    <div class="hero-actions reveal">
+      <a href="#about" class="btn btn-primary">Découvrir mon profil</a>
+      <button class="btn btn-outline" id="heroPdfBtn">
+        <span>↓</span> Télécharger mon CV (PDF)
+      </button>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span><div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FAITS MARQUANTS
+═══════════════════════════════════════════ -->
+<section class="section achievements" id="achievements">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">Réalisations clés</span>
+      <h2>Des <span class="gold">résultats mesurables</span> à chaque mission</h2>
+    </div>
+
+    <div class="ach-grid">
+      <div class="ach-card fade-up">
+        <div class="ach-company">LVMH</div>
+        <div class="ach-metric gold">4,5 M€</div>
+        <p>Programme Data Streaming AWS livré <strong>dans les délais et le budget</strong>, avec des données métier disponibles en temps réel sur l'ensemble des sites LVMH.</p>
+      </div>
+      <div class="ach-card fade-up">
+        <div class="ach-company">Orange Bank</div>
+        <div class="ach-metric gold">&minus;10%</div>
+        <p>Réduction des écarts budgétaires sur un programme SI &gt;7 M€ via suivi mensuel et re-forecast trimestriel. Livraison API Open Banking (PSD2) dans les jalons fixés.</p>
+      </div>
+      <div class="ach-card fade-up">
+        <div class="ach-company">Orange France</div>
+        <div class="ach-metric gold">+100 M€</div>
+        <p>Pilotage du RFP RAN national 2G–5G de bout en bout : benchmark technico-financier, contractualisation Nokia / Ericsson / Huawei sur plusieurs centaines de M€.</p>
+      </div>
+      <div class="ach-card fade-up">
+        <div class="ach-company">Carrefour Group</div>
+        <div class="ach-metric gold">&gt; 80%</div>
+        <p>Cellule PMO internationale créée <em>from scratch</em> en moins de 3 mois, avec un taux de delivery dans les délais supérieur à 80% sur 20 à 30 projets/an, périmètre 5 pays.</p>
+      </div>
+      <div class="ach-card fade-up">
+        <div class="ach-company">Carrefour Group</div>
+        <div class="ach-metric gold">11 000</div>
+        <p>Serveurs migrés vers 3 Data Centers (Europe / Asie / Chine), budget &gt;10 M€, zéro interruption majeure d'activité et respect total des délais.</p>
+      </div>
+      <div class="ach-card fade-up">
+        <div class="ach-company">LVMH</div>
+        <div class="ach-metric gold">5 sites</div>
+        <p>Intégration SI de 5 sites internationaux en moins de 12 mois <strong>sans interruption d'activité</strong>, en assurant le pilotage simultané de 2 programmes (&gt;6 M€ cumulés).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     À PROPOS
+═══════════════════════════════════════════ -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">À propos</span>
+      <h2>Un directeur IT orienté <span class="gold">impact business</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-visual fade-left">
+        <div class="photo-wrap">
+          <!-- Remplacez par votre photo : <img src="assets/photo.jpg" alt="Youness AIT BENHACHEM" /> -->
+          <div class="photo-placeholder">YAB</div>
+          <div class="photo-ring r1"></div>
+          <div class="photo-ring r2"></div>
+        </div>
+        <div class="about-badge">
+          <span class="gold">✦</span>&nbsp; PMP® · PRINCE2 · Scrum Master · ITIL
+        </div>
+        <div class="about-badge" style="margin-top:.5rem">
+          <span class="gold">◎</span>&nbsp; Télécom SudParis · Institut Mines-Télécom
+        </div>
+      </div>
+
+      <div class="about-text fade-right">
+        <p class="about-intro">
+          Directeur de Programmes IT &amp; PMO avec <strong>16 ans d'expérience</strong> auprès de grands comptes internationaux
+          (LVMH, Orange Bank, Carrefour, Orange France, Safran, Air Liquide, Alcatel-Lucent), je pilote des transformations
+          de Systèmes d'Information complexes en environnements critiques : <strong>banque, retail, télécom</strong>.
+        </p>
+        <p>
+          Fort de programmes à forts enjeux (budgets &gt;10 M€, multi-streams, multi-sites) et d'une connaissance approfondie
+          des enjeux de transformation digitale, j'accompagne aujourd'hui des acteurs marocains et internationaux :
+          grands comptes, banques, opérateurs qui accélèrent leur maturité numérique.
+        </p>
+        <p>
+          Mon approche est <strong>structurée, orientée valeur et data-driven</strong> : cadrage rigoureux, gouvernance COMEX,
+          reporting Power BI exécutif, pilotage budgétaire et gestion des risques SI de bout en bout.
+        </p>
+
+        <div class="pillars">
+          <div class="pillar">
+            <span class="pillar-icon">◈</span>
+            <div><strong>Gouvernance &amp; PMO</strong><span>Portefeuille, COPIL/COMEX, KPI</span></div>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">◈</span>
+            <div><strong>Transformation SI</strong><span>Migrations, go-lives, hypercare</span></div>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">◈</span>
+            <div><strong>Data &amp; Cloud</strong><span>AWS, Power BI, architecture SI</span></div>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">◈</span>
+            <div><strong>Pilotage fournisseurs</strong><span>RFP, benchmark, contractualisation</span></div>
+          </div>
+        </div>
+
+        <div class="about-cta">
+          <a href="#experiences" class="btn btn-primary">Voir mes expériences</a>
+          <a href="#contact" class="btn btn-ghost">Me contacter →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     EXPÉRIENCES
+═══════════════════════════════════════════ -->
+<section class="section experiences" id="experiences">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">Parcours</span>
+      <h2>Expériences <span class="gold">professionnelles</span></h2>
+      <p class="section-sub">16 ans · 7 grands comptes · France &amp; International</p>
+    </div>
+
+    <div class="timeline">
+
+      <!-- LVMH -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-card featured">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo lvmh-l">L</span>
+              <div>
+                <h3>LVMH · Direction des Opérations IT</h3>
+                <span class="co-period">Fév 2024 – Mars 2026 · 2 ans · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Luxe / International</span>
+          </div>
+          <h4 class="card-role">Directeur de Programmes IT — Transformation Infrastructure &amp; Data</h4>
+          <p class="card-context">Programmes IT stratégiques à forte criticité : transformation data cloud AWS, intégration SI multi-sites, sécurisation des infrastructures. Budget cumulé &gt;6 M€, 5 sites internationaux, équipe 10–15 personnes.</p>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>Livraison du programme <strong>Data Streaming AWS (4,5 M€)</strong> dans les délais et le budget, avec des données métier accessibles en temps réel sur l'ensemble des sites LVMH</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Intégration SI de <strong>5 sites internationaux</strong> en moins de 12 mois sans interruption d'activité</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Pilotage simultané de 2 programmes (&gt;6 M€ cumulés), avec un respect total des engagements coûts / délais / SLA et un renforcement du PCA/PRA</span></div>
+          </div>
+          <div class="card-tags"><span>AWS</span><span>Data Streaming</span><span>Jira</span><span>Power BI</span><span>PCA/PRA</span></div>
+        </div>
+      </div>
+
+      <!-- Orange Bank -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-card featured">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo obank-l">OB</span>
+              <div>
+                <h3>Orange Bank · Département IT Transformation</h3>
+                <span class="co-period">Mars 2022 – Jan 2024 · 2 ans · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Banque / Fintech</span>
+          </div>
+          <h4 class="card-role">PMO — Programme de Transformation SI &amp; Open Banking</h4>
+          <p class="card-context">Transformation SI multi-streams (budget &gt;7 M€) au sein de la DSI d'Orange Bank, dans un cadre bancaire régulé. Refonte des dispositifs de pilotage IT, intégration applicative et chantier Open Banking (API/PSD2). Coordination transverse de ~15 personnes.</p>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>Livraison de l'<strong>API Open Banking (PSD2)</strong> dans les jalons fixés, permettant l'ouverture sécurisée des services clients en conformité réglementaire</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Structuration from scratch du programme SI (&gt;7 M€) : gouvernance, planning directeur, processus opérationnels</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Réduction des <strong>écarts budgétaires de ~10%</strong> via suivi mensuel et re-forecast trimestriel</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Dashboards Power BI exécutifs présentés mensuellement au COMEX, contribuant à accélérer la prise de décision</span></div>
+          </div>
+          <div class="card-tags"><span>Open Banking</span><span>PSD2</span><span>Power BI</span><span>MS Project</span><span>COPIL/COMEX</span></div>
+        </div>
+      </div>
+
+      <!-- Carrefour Cellule PMO -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-card">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo carrefour-l">C</span>
+              <div>
+                <h3>Carrefour Group · Direction Internationale IT</h3>
+                <span class="co-period">Mars 2020 – Fév 2022 · 2 ans · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Retail / Distribution</span>
+          </div>
+          <h4 class="card-role">Responsable de la Cellule Projets IT Internationale</h4>
+          <p class="card-context">Création et pilotage d'une cellule PMO IT internationale, avec un portefeuille de 20 à 30 projets/an, le management de 6 à 8 chefs de projets, périmètre France et international (Roumanie, Pologne, Singapour, Chine, Brésil).</p>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>Création from scratch de la cellule PMO en moins de 3 mois, taux de delivery &gt;80%</span></div>
+            <div class="result"><span class="r-check">✔</span><span>3 projets stratégiques livrés dans les budgets : BDD Finance (1 M€), PCI Group (700 k€), E-Commerce Chine (700 k€)</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Industrialisation des pratiques PMO sur 5 pays via Smartsheet &amp; Confluence</span></div>
+          </div>
+          <div class="card-tags"><span>PMO</span><span>Smartsheet</span><span>Confluence</span><span>Multi-pays</span></div>
+        </div>
+      </div>
+
+      <!-- Orange France -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-card">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo orange-l">O</span>
+              <div>
+                <h3>Orange France · Direction Technique des Réseaux</h3>
+                <span class="co-period">Jan 2018 – Fév 2020 · 2 ans · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Télécom</span>
+          </div>
+          <h4 class="card-role">Directeur de Programmes Télécom</h4>
+          <p class="card-context">Portefeuille de programmes nationaux à très forte visibilité stratégique : RFP RAN (2G–5G, plusieurs centaines de M€), déploiement 5G, programme souverain PMR/RRF (Ministère de l'Intérieur). Coordination Nokia / Ericsson / Huawei / ZTE / Samsung.</p>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>Conduite du RFP RAN national 2G–5G de bout en bout, incluant la contractualisation sur <strong>plusieurs centaines de M€</strong></span></div>
+            <div class="result"><span class="r-check">✔</span><span>Déploiement 5G national (Paris, Lyon, Marseille) dans les jalons fixés</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Programme souverain PMR/RRF (Ministère de l'Intérieur) : réseau régalien sécurisé opérationnel dans les délais</span></div>
+          </div>
+          <div class="card-tags"><span>RFP RAN</span><span>5G</span><span>Nokia</span><span>Ericsson</span><span>Huawei</span><span>Planview</span></div>
+        </div>
+      </div>
+
+      <!-- Carrefour DC -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-card tl-card-sm">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo carrefour-l">C</span>
+              <div>
+                <h3>Carrefour Group · Direction IT</h3>
+                <span class="co-period">Sept 2015 – Nov 2017 · 2 ans · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Retail</span>
+          </div>
+          <h4 class="card-role">PMO / Chef de Projet IT Infrastructures — Data Centers</h4>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>Migration de <strong>11 000 serveurs</strong> vers 3 DC (Europe / Asie / Chine), budget &gt;10 M€, zéro interruption majeure d'activité</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Création des templates PMO déployés sur l'ensemble du portefeuille groupe</span></div>
+          </div>
+          <div class="card-tags"><span>Data Center</span><span>Migration</span><span>Infrastructure</span></div>
+        </div>
+      </div>
+
+      <!-- Safran -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-card tl-card-sm">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo safran-l">S</span>
+              <div>
+                <h3>Safran Electronics &amp; Defense</h3>
+                <span class="co-period">Juin 2013 – Juil 2015 · 2 ans · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Industrie / Défense</span>
+          </div>
+          <h4 class="card-role">Chef de Projet IT Infrastructures</h4>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>4 projets IT simultanés (budgets cumulés &gt;3,5 M€) livrés dans les délais, zéro interruption majeure d'activité</span></div>
+            <div class="result"><span class="r-check">✔</span><span>Intégration IT du site Ex-Zodiac dans le SI Safran dans les délais fixés</span></div>
+          </div>
+          <div class="card-tags"><span>Sécurité</span><span>Conformité</span><span>Industriel</span></div>
+        </div>
+      </div>
+
+      <!-- Air Liquide -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="tl-card tl-card-sm">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo airliquide-l">AL</span>
+              <div>
+                <h3>Air Liquide · Direction des Opérations</h3>
+                <span class="co-period">Mars 2011 – Mai 2013 · 2 ans · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Industrie</span>
+          </div>
+          <h4 class="card-role">PMO / Chef de Projet — Programme Postes de Travail</h4>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>Migration de <strong>15 000+ postes</strong> Windows 7 en Europe dans les délais, avec un pilotage KPI quotidien et une coordination multi-équipes</span></div>
+          </div>
+          <div class="card-tags"><span>End-user Computing</span><span>Europe</span><span>Change Mgmt</span></div>
+        </div>
+      </div>
+
+      <!-- Alcatel -->
+      <div class="tl-item fade-up">
+        <div class="tl-marker"><div class="tl-dot"></div></div>
+        <div class="tl-card tl-card-sm">
+          <div class="card-hd">
+            <div class="card-co">
+              <span class="co-logo alcatel-l">A</span>
+              <div>
+                <h3>Alcatel-Lucent · Support Technique</h3>
+                <span class="co-period">Jan 2010 – Fév 2011 · 1 an · Paris</span>
+              </div>
+            </div>
+            <span class="co-sector">Télécom</span>
+          </div>
+          <h4 class="card-role">Ingénieur Télécom 3G — Support Niveau 2 &amp; 3</h4>
+          <div class="card-results">
+            <div class="result"><span class="r-check">✔</span><span>Support RAN 3G Niv.2/3 pour SFR, SRR et Orange, avec des interventions terrain dans 5 à 10 pays (Europe, Afrique, Asie)</span></div>
+          </div>
+          <div class="card-tags"><span>RAN 3G</span><span>Télécom</span><span>International</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     COMPÉTENCES
+═══════════════════════════════════════════ -->
+<section class="section skills" id="skills">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">Expertise</span>
+      <h2>Domaines de <span class="gold">compétences</span></h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="fade-left">
+        <h3 class="skill-group-title">Gouvernance &amp; Management SI</h3>
+        <div class="skill-bar-item"><div class="sb-header"><span>Gouvernance &amp; Pilotage (COPIL/COMEX)</span><span class="sb-pct">95%</span></div><div class="sb-track"><div class="sb-fill" data-w="95"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-header"><span>PMO / Portefeuille projets SI</span><span class="sb-pct">95%</span></div><div class="sb-track"><div class="sb-fill" data-w="95"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-header"><span>Transformation Digitale &amp; Delivery</span><span class="sb-pct">92%</span></div><div class="sb-track"><div class="sb-fill" data-w="92"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-header"><span>Pilotage Fournisseurs &amp; RFP</span><span class="sb-pct">90%</span></div><div class="sb-track"><div class="sb-fill" data-w="90"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-header"><span>Conduite du Changement</span><span class="sb-pct">85%</span></div><div class="sb-track"><div class="sb-fill" data-w="85"></div></div></div>
+        <div class="skill-bar-item"><div class="sb-header"><span>Data &amp; Cloud (AWS, Power BI)</span><span class="sb-pct">80%</span></div><div class="sb-track"><div class="sb-fill" data-w="80"></div></div></div>
+      </div>
+
+      <div class="fade-right">
+        <h3 class="skill-group-title">Outils &amp; Technologies</h3>
+        <div class="tags-grid">
+          <span class="stag expert">MS Project</span>
+          <span class="stag expert">Jira</span>
+          <span class="stag expert">Confluence</span>
+          <span class="stag expert">Power BI</span>
+          <span class="stag expert">Smartsheet</span>
+          <span class="stag advanced">Planview</span>
+          <span class="stag advanced">Clarity</span>
+          <span class="stag advanced">ServiceNow</span>
+          <span class="stag advanced">AWS</span>
+          <span class="stag advanced">SharePoint</span>
+          <span class="stag mid">EasyVista</span>
+          <span class="stag mid">Azure (notions)</span>
+          <span class="stag mid">Visio</span>
+        </div>
+
+        <h3 class="skill-group-title" style="margin-top:2rem">Secteurs d'expertise</h3>
+        <div class="sectors">
+          <div class="sector-item"><span class="s-dot"></span><span><strong>Banque / Fintech</strong> : SI régulés, Open Banking (PSD2), conformité réglementaire</span></div>
+          <div class="sector-item"><span class="s-dot"></span><span><strong>Retail</strong> : transformation SI internationale, e-commerce, infrastructure DC</span></div>
+          <div class="sector-item"><span class="s-dot"></span><span><strong>Télécom</strong> : RAN 2G–5G, infrastructure réseau, pilotage équipementiers</span></div>
+          <div class="sector-item"><span class="s-dot"></span><span><strong>Luxe / International</strong> : intégration SI multi-sites, data cloud</span></div>
+          <div class="sector-item"><span class="s-dot"></span><span><strong>Industrie &amp; Défense</strong> : SI critiques, sécurité, conformité industrielle</span></div>
+          <div class="sector-item"><span class="s-dot"></span><span><strong>Maroc digital</strong> : banque, retail et télécom marocains</span></div>
+        </div>
+
+        <h3 class="skill-group-title" style="margin-top:2rem">Langues</h3>
+        <div class="lang-item"><span>Français</span><div class="lang-dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span></div><span class="lang-lvl">Bilingue</span></div>
+        <div class="lang-item"><span>Anglais</span><div class="lang-dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span></div><span class="lang-lvl">Courant</span></div>
+        <div class="lang-item"><span>Arabe</span><div class="lang-dots"><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div><span class="lang-lvl">Notions</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PROJETS PHARES
+═══════════════════════════════════════════ -->
+<section class="section projects" id="projects">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">Projets phares</span>
+      <h2>Programmes à <span class="gold">fort impact</span></h2>
+      <p class="section-sub">Les réalisations les plus structurantes de mon parcours</p>
+    </div>
+
+    <div class="proj-grid">
+
+      <div class="proj-card fade-up">
+        <div class="proj-top"><span class="proj-icon">◎</span><span class="proj-tag">Data &amp; Cloud · LVMH</span></div>
+        <h3>Data Streaming Platform AWS</h3>
+        <p>Conception et pilotage d'une plateforme de streaming de données en temps réel sur l'ensemble des sites LVMH. Architecture AWS, ingestion volumineuse, données métier disponibles en continu sur 5 sites internationaux. Programme livré dans les délais et le budget.</p>
+        <div class="proj-impact">
+          <div class="pi-metric"><span class="pi-val gold">4,5 M€</span><span>budget piloté</span></div>
+          <div class="pi-metric"><span class="pi-val gold">5 sites</span><span>internationaux</span></div>
+          <div class="pi-metric"><span class="pi-val gold">0</span><span>dépassement</span></div>
+        </div>
+        <div class="proj-stack"><span>AWS</span><span>Data Streaming</span><span>Jira</span><span>Power BI</span></div>
+      </div>
+
+      <div class="proj-card fade-up">
+        <div class="proj-top"><span class="proj-icon">◎</span><span class="proj-tag">Open Banking · Orange Bank</span></div>
+        <h3>Transformation SI &amp; API PSD2</h3>
+        <p>Structuration from scratch d'un programme SI multi-streams dans un cadre bancaire régulé : livraison de l'API Open Banking (PSD2), refonte des dispositifs de pilotage, dashboarding COMEX. Réduction des écarts budgétaires de ~10% sur 7 M€.</p>
+        <div class="proj-impact">
+          <div class="pi-metric"><span class="pi-val gold">&gt;7 M€</span><span>budget piloté</span></div>
+          <div class="pi-metric"><span class="pi-val gold">~10%</span><span>écarts réduits</span></div>
+          <div class="pi-metric"><span class="pi-val gold">PSD2</span><span>livré in-time</span></div>
+        </div>
+        <div class="proj-stack"><span>Open Banking</span><span>PSD2</span><span>MS Project</span><span>Power BI</span></div>
+      </div>
+
+      <div class="proj-card fade-up">
+        <div class="proj-top"><span class="proj-icon">◎</span><span class="proj-tag">Télécom · Orange France</span></div>
+        <h3>RFP RAN National 2G–5G</h3>
+        <p>Pilotage du renouvellement complet du réseau radio accès national, comprenant le benchmark technico-financier, l'optimisation du TCO et la contractualisation avec Nokia, Ericsson et Huawei sur plusieurs centaines de M€. Déploiement 5G simultané Paris / Lyon / Marseille.</p>
+        <div class="proj-impact">
+          <div class="pi-metric"><span class="pi-val gold">+100 M€</span><span>portefeuille</span></div>
+          <div class="pi-metric"><span class="pi-val gold">4</span><span>équipementiers</span></div>
+          <div class="pi-metric"><span class="pi-val gold">2G–5G</span><span>national</span></div>
+        </div>
+        <div class="proj-stack"><span>RFP</span><span>Nokia</span><span>Ericsson</span><span>Huawei</span><span>Planview</span></div>
+      </div>
+
+      <div class="proj-card fade-up">
+        <div class="proj-top"><span class="proj-icon">◎</span><span class="proj-tag">Infrastructure · Carrefour</span></div>
+        <h3>Migration Data Centers Groupe</h3>
+        <p>PMO du programme de consolidation des Data Centers Carrefour (Europe / Asie / Chine) : migration de 11 000 serveurs vers 3 DC, gouvernance mise en place avec la DSI et l'infogérant, zéro interruption majeure d'activité, délais et budget respectés.</p>
+        <div class="proj-impact">
+          <div class="pi-metric"><span class="pi-val gold">11 000</span><span>serveurs migrés</span></div>
+          <div class="pi-metric"><span class="pi-val gold">&gt;10 M€</span><span>budget</span></div>
+          <div class="pi-metric"><span class="pi-val gold">0</span><span>interruption</span></div>
+        </div>
+        <div class="proj-stack"><span>Infrastructure</span><span>DC</span><span>Risk Mgmt</span><span>MS Project</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CERTIFICATIONS & FORMATION
+═══════════════════════════════════════════ -->
+<section class="section certifications" id="certifications">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">Certifications &amp; Formation</span>
+      <h2>Excellence <span class="gold">académique &amp; professionnelle</span></h2>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert-col fade-left">
+        <h3 class="cert-group-title">Certifications 2026 · Coursera</h3>
+        <div class="cert-item">
+          <div class="cert-badge new">2026</div>
+          <div>
+            <strong>Digital Transformation</strong>
+            <span>University of Virginia &amp; BCG · Coursera</span>
+            <a class="cert-verify" href="https://coursera.org/verify/CDBKIXRH4RCJ" target="_blank" rel="noopener">Vérifier ↗</a>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge new">2026</div>
+          <div>
+            <strong>Foundations of Business Intelligence</strong>
+            <span>Google · Coursera</span>
+            <a class="cert-verify" href="https://coursera.org/verify/7J0J38OE881E" target="_blank" rel="noopener">Vérifier ↗</a>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge new">2026</div>
+          <div>
+            <strong>Introduction to Artificial Intelligence (AI)</strong>
+            <span>IBM · Coursera</span>
+            <a class="cert-verify" href="https://coursera.org/verify/3NMYN1SUQH0L" target="_blank" rel="noopener">Vérifier ↗</a>
+          </div>
+        </div>
+
+        <h3 class="cert-group-title" style="margin-top:2rem">Certifications professionnelles · 2017</h3>
+        <div class="cert-item">
+          <div class="cert-badge pro">PMI</div>
+          <div><strong>PMP® — Project Management Professional</strong><span>Project Management Institute (PMI)</span></div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge pro">APMG</div>
+          <div><strong>PRINCE2 Foundation</strong><span>Oxiane</span></div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge pro">SCRUM</div>
+          <div><strong>Scrum Master</strong><span>Oxiane</span></div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-badge pro">CLOUD</div>
+          <div><strong>Architecture Cloud d'Entreprise</strong><span>Pythagore</span></div>
+        </div>
+      </div>
+
+      <div class="cert-col fade-right">
+        <h3 class="cert-group-title">Formation</h3>
+        <div class="formation-card">
+          <div class="formation-logo">TSP</div>
+          <div>
+            <h4>Diplôme d'Ingénieur</h4>
+            <p>Systèmes d'Information (SI) &amp; Télécommunications</p>
+            <span class="formation-school">Télécom SudParis · Grande École d'Ingénieurs<br />Institut Mines-Télécom · Paris · 2007–2010</span>
+          </div>
+        </div>
+
+        <h3 class="cert-group-title" style="margin-top:2rem">Centres d'intérêt</h3>
+        <div class="interests">
+          <div class="interest-item"><span class="i-icon">◈</span><span>Veille active : Intelligence Artificielle, transformation digitale, gouvernance des données, cloud SI</span></div>
+          <div class="interest-item"><span class="i-icon">◈</span><span>Voyages culturels dans plus de 10 pays (Europe, Afrique, Asie)</span></div>
+          <div class="interest-item"><span class="i-icon">◈</span><span>Sport d'endurance</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════ -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-tag">Contact</span>
+      <h2>Travaillons <span class="gold">ensemble</span></h2>
+      <p class="section-sub">Disponible immédiatement · Casablanca, Maroc · Mobilité internationale</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info fade-left">
+        <div class="ct-item">
+          <div class="ct-icon">✉</div>
+          <div>
+            <span class="ct-label">Email</span>
+            <a href="mailto:aitbenhachem.youness@gmail.com">aitbenhachem.youness@gmail.com</a>
+          </div>
+        </div>
+        <div class="ct-item">
+          <div class="ct-icon">☏</div>
+          <div>
+            <span class="ct-label">Téléphone</span>
+            <a href="tel:+212663050880">+212 6 63 05 08 80</a>
+          </div>
+        </div>
+        <div class="ct-item">
+          <div class="ct-icon">in</div>
+          <div>
+            <span class="ct-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/youness-aitbenhachem" target="_blank" rel="noopener">linkedin.com/in/youness-aitbenhachem</a>
+          </div>
+        </div>
+        <div class="ct-item">
+          <div class="ct-icon">◎</div>
+          <div>
+            <span class="ct-label">Localisation</span>
+            <span>Casablanca, Maroc · Mobilité internationale</span>
+          </div>
+        </div>
+        <div class="avail-banner">
+          <span class="avail-dot"></span>
+          Disponible immédiatement
+        </div>
+        <div style="margin-top:1.5rem">
+          <button class="btn btn-primary btn-full" id="ctaPdfBtn">
+            ↓ &nbsp;Télécharger mon CV (PDF)
+          </button>
+        </div>
+      </div>
+
+      <form class="contact-form fade-right" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Prénom Nom" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="vous@entreprise.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="org">Société / Organisation</label>
+          <input type="text" id="org" name="org" placeholder="Nom de votre entreprise" />
+        </div>
+        <div class="form-group">
+          <label for="subject">Objet</label>
+          <input type="text" id="subject" name="subject" placeholder="Opportunité · Mission · Collaboration" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Décrivez votre opportunité ou votre projet..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <span class="btn-txt">Envoyer le message</span>
+          <span class="btn-arrow">→</span>
+        </button>
+        <div class="form-ok" id="formOk">✓ Message envoyé ! Je vous répondrai sous 24h.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="footer-logo">YAB<span class="gold">.</span></span>
+        <p>Directeur de Programmes IT &amp; PMO<br />Transformation des Systèmes d'Information</p>
+      </div>
+      <div class="footer-nav">
+        <a href="#about">À propos</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Youness AIT BENHACHEM · Casablanca, Maroc</span>
+      <span>Tous droits réservés</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Retour en haut">↑</button>
+
+<!-- ═══════════════════════════════════════════
+     SECTION CV CACHÉE — EXPORT PDF
+     (invisible à l'écran, capturée par html2pdf)
+═══════════════════════════════════════════ -->
+<div id="cv-export" style="display:none">
+  <div class="cv-page">
+    <div class="cv-header">
+      <div class="cv-header-main">
+        <h1 class="cv-name">YOUNESS AIT BENHACHEM</h1>
+        <p class="cv-title">Directeur de Programmes IT &amp; PMO · Transformation des Systèmes d'Information</p>
+        <p class="cv-subtitle">Banque · Retail · Télécom | Programmes Multi-Streams | 16 ans Grands Comptes Internationaux</p>
+      </div>
+      <div class="cv-contacts">
+        <span>+212 6 63 05 08 80</span>
+        <span>aitbenhachem.youness@gmail.com</span>
+        <span>Casablanca, Maroc</span>
+        <span>linkedin.com/in/youness-aitbenhachem</span>
+        <span class="cv-avail">Disponible immédiatement</span>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <h2 class="cv-section-title">RÉSUMÉ</h2>
+      <p>Directeur de Programmes IT et PMO avec 16 ans d'expérience acquise auprès de grands comptes internationaux (LVMH, Orange Bank, Carrefour, Orange France, Safran, Air Liquide), je pilote des transformations de Systèmes d'Information complexes en environnements critiques — banque, retail, télécom. Fort de programmes à forts enjeux (budgets &gt;10 M€, multi-streams, multi-sites), je mets aujourd'hui cette expertise au service d'acteurs qui accélèrent leur maturité numérique. Disponible immédiatement. Installation récente au Maroc (mars 2026) après 16 ans en France.</p>
+    </div>
+
+    <div class="cv-section">
+      <h2 class="cv-section-title">FAITS MARQUANTS</h2>
+      <ul class="cv-facts">
+        <li>Data Streaming AWS (LVMH) — programme 4,5 M€ livré dans les délais et le budget, données disponibles en temps réel</li>
+        <li>Transformation SI bancaire Open Banking — Orange Bank — budget &gt;7 M€, réduction des écarts budgétaires de ~10%</li>
+        <li>RFP RAN national 2G–5G (Orange France) — portefeuille de plusieurs centaines de M€, pilotage Nokia / Ericsson / Huawei</li>
+        <li>Cellule PMO internationale créée from scratch (Carrefour Group) — 20 à 30 projets/an, taux de delivery &gt;80%</li>
+        <li>Migration de 11 000 serveurs vers 3 Data Centers Europe / Asie / Chine — budget &gt;10 M€</li>
+        <li>Intégration SI de 5 sites internationaux en moins de 12 mois sans interruption d'activité (LVMH)</li>
+      </ul>
+    </div>
+
+    <div class="cv-section">
+      <h2 class="cv-section-title">EXPÉRIENCES PROFESSIONNELLES</h2>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>Directeur de Programmes IT — Transformation Infrastructure &amp; Data</strong><span>Fév 2024 – Mars 2026</span></div>
+        <div class="cv-exp-co">LVMH · Direction des Opérations IT | Paris</div>
+        <ul>
+          <li>Livraison du programme Data Streaming AWS (4,5 M€) dans les délais et le budget</li>
+          <li>Intégration SI de 5 sites internationaux en moins de 12 mois sans interruption d'activité</li>
+          <li>Pilotage simultané de 2 programmes (&gt;6 M€ cumulés) — respect coûts / délais / SLA, PCA/PRA</li>
+        </ul>
+      </div>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>PMO — Programme de Transformation SI &amp; Open Banking</strong><span>Mars 2022 – Jan 2024</span></div>
+        <div class="cv-exp-co">Orange Bank · Département IT Transformation | Paris</div>
+        <ul>
+          <li>Livraison de l'API Open Banking (PSD2) dans les jalons fixés — conformité réglementaire bancaire</li>
+          <li>Structuration from scratch du programme SI (&gt;7 M€) : gouvernance, planning directeur, processus</li>
+          <li>Réduction des écarts budgétaires de ~10% via suivi mensuel et re-forecast trimestriel</li>
+        </ul>
+      </div>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>Responsable de la Cellule Projets IT Internationale</strong><span>Mars 2020 – Fév 2022</span></div>
+        <div class="cv-exp-co">Carrefour Group · Direction Internationale IT | Paris</div>
+        <ul>
+          <li>Création from scratch de la cellule PMO en &lt;3 mois — taux de delivery &gt;80%</li>
+          <li>Portefeuille de 20 à 30 projets/an, management de 6 à 8 chefs de projets, 5 pays</li>
+        </ul>
+      </div>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>Directeur de Programmes Télécom</strong><span>Jan 2018 – Fév 2020</span></div>
+        <div class="cv-exp-co">Orange France · Direction Technique des Réseaux | Paris</div>
+        <ul>
+          <li>RFP RAN national 2G–5G — contractualisation sur plusieurs centaines de M€</li>
+          <li>Déploiement 5G national (Paris, Lyon, Marseille) dans les jalons</li>
+          <li>Programme souverain PMR/RRF (Ministère de l'Intérieur) — dans les délais</li>
+        </ul>
+      </div>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>PMO / Chef de Projet IT Infrastructures</strong><span>Sept 2015 – Nov 2017</span></div>
+        <div class="cv-exp-co">Carrefour Group · Direction Internationale IT | Paris</div>
+        <ul><li>Migration de 11 000 serveurs vers 3 Data Centers (Europe / Asie / Chine) — budget &gt;10 M€, zéro interruption</li></ul>
+      </div>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>Chef de Projet IT Infrastructures</strong><span>Juin 2013 – Juil 2015</span></div>
+        <div class="cv-exp-co">Safran Electronics &amp; Defense | Paris</div>
+        <ul><li>4 projets IT simultanés (&gt;3,5 M€ cumulés) livrés dans les délais — zéro interruption majeure</li></ul>
+      </div>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>PMO / Chef de Projet — Programme Postes de Travail</strong><span>Mars 2011 – Mai 2013</span></div>
+        <div class="cv-exp-co">Air Liquide · Direction des Opérations | Paris</div>
+        <ul><li>Migration de 15 000+ postes Windows 7 en Europe dans les délais</li></ul>
+      </div>
+
+      <div class="cv-exp">
+        <div class="cv-exp-hd"><strong>Ingénieur Télécom 3G — Support Technique Niv. 2 &amp; 3</strong><span>Jan 2010 – Fév 2011</span></div>
+        <div class="cv-exp-co">Alcatel-Lucent · Support Technique | Paris</div>
+        <ul><li>Support RAN 3G pour SFR, SRR, Orange — interventions dans 5 à 10 pays</li></ul>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <h2 class="cv-section-title">COMPÉTENCES</h2>
+      <div class="cv-skills-cols">
+        <div>
+          <strong>Gouvernance :</strong> Cadrage, jalons, COPIL/COPROJ, reporting COMEX, gestion des risques SI<br />
+          <strong>PMO / Portefeuille :</strong> Multi-projets SI, planning consolidé, KPI, priorisation, allocation ressources<br />
+          <strong>Delivery :</strong> Migrations SI, go-lives, hypercare, PCA/PRA, SLA/QoS<br />
+          <strong>Fournisseurs :</strong> RFP, benchmark, négociations, contractualisation<br />
+          <strong>Change Mgmt :</strong> Communication, accompagnement métiers, stabilisation post-déploiement
+        </div>
+        <div>
+          <strong>Outils :</strong> MS Project, Jira, Confluence, Smartsheet, Planview, Clarity<br />
+          <strong>Data / Reporting :</strong> Power BI, SharePoint<br />
+          <strong>ITSM :</strong> ServiceNow, EasyVista, Visio<br />
+          <strong>Cloud :</strong> AWS (Data Streaming), Azure (notions)<br />
+          <strong>Méthodes :</strong> PMP®, PRINCE2, Scrum Master, ITIL, Agile/Scrum, Cycle en V
+        </div>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <h2 class="cv-section-title">CERTIFICATIONS</h2>
+      <div class="cv-certs">
+        <div><strong>2026 :</strong> Digital Transformation (UVA &amp; BCG / Coursera) · Google Business Intelligence (Google / Coursera) · Introduction to AI (IBM / Coursera)</div>
+        <div><strong>2017 :</strong> PMP® (PMI) · PRINCE2 Foundation (Oxiane) · Scrum Master (Oxiane) · Architecture Cloud d'Entreprise (Pythagore)</div>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <h2 class="cv-section-title">FORMATION</h2>
+      <div class="cv-exp-hd"><strong>Diplôme d'Ingénieur — Systèmes d'Information &amp; Télécommunications</strong><span>2007–2010</span></div>
+      <div class="cv-exp-co">Télécom SudParis · Grande École d'Ingénieurs, Institut Mines-Télécom · Paris</div>
+    </div>
+
+    <div class="cv-section">
+      <h2 class="cv-section-title">LANGUES</h2>
+      <p>Français — Bilingue &nbsp;|&nbsp; Anglais — Courant &nbsp;|&nbsp; Arabe — Notions &nbsp;|&nbsp; Espagnol — Notions</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+<script src="js/pdf.js"></script>
+</body>
+</html>
